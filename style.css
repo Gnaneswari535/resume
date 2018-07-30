@@ -34,6 +34,16 @@ a{
   padding: 2%;
   margin: 2%;
 }
+img{
+  width:200px;
+  height: 200px;
+  border-radius:50%;
+
+}
+h5,h4,h3,
+h3{
+  text-align: center;
+}
 .rightChild{
   width: 70%;
   border: 2px solid #ddd;
