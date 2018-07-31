@@ -5,7 +5,7 @@
   justify-content: center;
 }
 .child{
-  border: 2px solid #57C2F4 ;
+  border: 2px solid #0B1907 ;
   padding: 2%;
   margin: 2%;
   box-shadow: 3px 3px 3px #ddd;
@@ -13,18 +13,19 @@
 img{
   width:200px;
   height: 200px;
-  border-radius:50%;
+  border-radius:30%;
+  border: 2px solid #0B1907;
 
 }
 h2,
 h3{
   text-align: center;
 }
-a{
+.a{
   display: block;
   text-align: center;
   text-decoration: none;
-  background:#57C2F4   ;
+  background:#0B1907   ;
   color: #fff;
   padding: 2%;
 }
@@ -33,15 +34,11 @@ a{
   border: 2px solid #ddd;
   padding: 2%;
   margin: 2%;
+  text-align: center;
 }
-img{
-  width:200px;
-  height: 200px;
-  border-radius:50%;
 
-}
-h5,h4,h3,
-h3{
+h3,h3,h4,
+h4{
   text-align: center;
 }
 .rightChild{
@@ -50,4 +47,173 @@ h3{
   padding: 2%;
   margin: 2%;
 
+}
+.mail{
+  text-decoration: none;
+  font-size: 20px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    justify-content: center;
+  }
+  .child{
+    border: 2px solid #0B1907 ;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 3px 3px 3px #ddd;
+  }
+
+  h2,
+  h3{
+    text-align: center;
+  }
+  .a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background:#0B1907   ;
+    color: #fff;
+    padding: 2%;
+  }
+  .leftChild{
+    width: 90%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius:30%;
+
+  }
+  h3,h3,h4,
+  h4{
+    text-align: center;
+  }
+  .rightChild{
+    width: 90%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: center;
+  }
+  .child{
+    border: 2px solid #0B1907 ;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 3px 3px 3px #ddd;
+  }
+
+  h2,
+  h3{
+    text-align: center;
+  }
+  .a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background:#0B1907   ;
+    color: #fff;
+    padding: 2%;
+  }
+  .leftChild{
+    width: 50%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius:30%;
+
+  }
+  h3,h3,h4,
+  h4{
+    text-align: center;
+  }
+  .rightChild{
+    width: 50%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: center;
+  }
+  .child{
+    border: 2px solid #0B1907 ;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 3px 3px 3px #ddd;
+  }
+
+  h2,
+  h3{
+    text-align: center;
+  }
+  .a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background:#0B1907   ;
+    color: #fff;
+    padding: 2%;
+  }
+  .leftChild{
+    width: 40%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius:30%;
+
+  }
+  h3,h3,h4,
+  h4{
+    text-align: center;
+  }
+  .rightChild{
+    width: 60%;
+    border: 2px solid #ddd;
+    padding: 2%;
+    margin: 2%;
+
+  }
+  .mail{
+    text-decoration: none;
+    font-size: 20px;
+  }
 }
