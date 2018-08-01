@@ -1,3 +1,9 @@
+tr:nth-child(even){
+  background:#ddd;
+}
+
+
+
 .parent{
   display: flex;
   flex-direction: row;
@@ -37,9 +43,7 @@ h3{
   text-align: center;
 }
 
-h3,h3,h4,
-h4{
-  text-align: center;
+
 }
 .rightChild{
   width: 70%;
@@ -91,8 +95,7 @@ h4{
     border-radius:30%;
 
   }
-  h3,h3,h4,
-  h4{
+  h3,h3{
     text-align: center;
   }
   .rightChild{
@@ -146,8 +149,7 @@ h4{
     border-radius:30%;
 
   }
-  h3,h3,h4,
-  h4{
+  h3{
     text-align: center;
   }
   .rightChild{
@@ -201,8 +203,7 @@ h4{
     border-radius:30%;
 
   }
-  h3,h3,h4,
-  h4{
+  h3,h3{
     text-align: center;
   }
   .rightChild{
